@@ -1,14 +1,16 @@
-{
-  "feedback": [
-    {
-      "id": 1,
-      "rating": 10,
-      "text": "feedback item from db.json"
-    },
-    {
-      "id": 2,
-      "rating": 8,
-      "text": "feedback item 2 from db.json"
-    }
-  ]
-}
+// {
+//   "feedback": [
+//     {
+//       "id": 1,
+//       "rating": 10,
+//       "text": "feedback item from db.json"
+//     },
+//     {
+//       "id": 2,
+//       "rating": 8,
+//       "text": "feedback item 2 from db.json"
+//     }
+//   ]
+// }
+
+// if proxy in package.json is set to localhost:3000 then uncomment this db

@@ -2,7 +2,7 @@
   "name": "feedback-app",
   "version": "0.1.0",
   "private": true,
-  "main": "server.js",
+  "proxy": "https://frozen-bayou-13231.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -19,12 +19,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json",
-    "dev": "concurrently \"npm run server\" \"react-scripts start\""
+    "server": "json-server --watch db.json --port 3001",
+    "dev": "concurrently \"npm run server\" \"npm start\""
   },
   "eslintConfig": {
     "extends": [
