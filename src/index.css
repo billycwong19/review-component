@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #202142;
   color: #fff;
   line-height: 1.6;
 }
@@ -39,6 +38,7 @@ header {
   padding: 40px 50px;
   margin: 20px 0;
   position: relative;
+  border: 2px solid black;
 }
 
 .card.reverse {

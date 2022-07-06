@@ -1,6 +1,5 @@
 import { createContext, useState, useEffect } from "react";
 
-
 const FeedbackContext = createContext()
 
 export const FeedbackProdvider = ({ children }) => {
@@ -17,7 +16,7 @@ export const FeedbackProdvider = ({ children }) => {
 
     // fetch feedback
     const fetchFeedback = async () => {
-        const response = await fetch('/feedback?_sort=id&_order=desc')
+        const response = await fetch(`/feedback?_sort=id&_order=desc`)
         const data = await response.json()
 
         setFeedback(data)
@@ -26,7 +25,7 @@ export const FeedbackProdvider = ({ children }) => {
 
     // add review to list
     const addFeedback = async (newFeedback) => {
-        const response = await fetch('/feedback', {
+        const response = await fetch(`/feedback`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
