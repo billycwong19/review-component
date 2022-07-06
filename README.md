@@ -8,16 +8,10 @@
 
 #  
 
-<img src="" width=400>
+<!-- <img src="" width=400> -->
 
 
 ### This component is based off Brad Traversy's feedback-app from his online course for React. https://github.com/bradtraversy/feedback-app. 
-
-#
-
-## install necessary packages 
-
-        npm i framer-motion
 
 #
 
